@@ -64,14 +64,12 @@ body {
 .header-elements {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
   align-items: center;
 }
 
 /* menu */
 .header-menu {
   display: flex;
-  gap: 76px;
   align-items: center;
 }
 
@@ -88,10 +86,15 @@ body {
   line-height: 1.17;
   color: #4d5ae5;
   letter-spacing: 0.03em;
+  margin-right: 76px;
 }
 
 .logo-text {
   color: #2e2f42;
+}
+
+.menu-list {
+  padding: 24px 0;
 }
 
 .menu-link {
@@ -139,18 +142,17 @@ body {
 /* hero */
 .hero {
   background-color: #2e2f42;
-  text-align: center;
   padding: 188px 0;
 }
 
 .hero-title {
   max-width: 496px;
   font-weight: 700;
-  margin-bottom: 48px;
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto 48px auto;
 }
 
 .hero-btn {
@@ -168,6 +170,7 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   border: none;
+  margin: 0 auto;
 }
 
 .hero-btn:hover,
