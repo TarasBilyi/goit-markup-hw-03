@@ -20,48 +20,45 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-elements">
-          <!-- menu -->
-          <nav class="header-menu">
-            <a class="logo" href="./index.html">
-              Web<span class="logo-text">Studio</span>
-            </a>
-            <ul class="menu-list">
-              <li><a class="menu-link" href="./index.html">Studio</a></li>
-              <li><a class="menu-link" href="">Portfolio</a></li>
-              <li><a class="menu-link" href="">Contacts</a></li>
-            </ul>
-          </nav>
+    <header class="header">
+      <div class="container header-elements">
+        <!-- menu -->
+        <nav class="header-menu">
+          <a class="logo" href="./index.html">
+            Web<span class="logo-text">Studio</span>
+          </a>
+          <ul class="menu-list">
+            <li><a class="menu-link" href="./index.html">Studio</a></li>
+            <li><a class="menu-link" href="">Portfolio</a></li>
+            <li><a class="menu-link" href="">Contacts</a></li>
+          </ul>
+        </nav>
 
-          <!-- contacts -->
-          <address class="contacts">
-            <ul class="contacts-list">
-              <li>
-                <a class="contact-link" href="mailto:info@devstudio.com">
-                  info@devstudio.com
-                </a>
-              </li>
-              <li>
-                <a class="contact-link" href="tel:+110001111111">
-                  +11 (000) 111-11-11
-                </a>
-              </li>
-            </ul>
-          </address>
-        </div>
+        <!-- contacts -->
+        <address class="contacts">
+          <ul class="contacts-list">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com">
+                info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+110001111111">
+                +11 (000) 111-11-11
+              </a>
+            </li>
+          </ul>
+        </address>
       </div>
     </header>
 
     <main>
       <!-- hero -->
       <section class="hero">
-        <h1 class="hero-title">
-          Effective Solutions <br />
-          for Your Business
-        </h1>
-        <button class="hero-btn" type="button">Order service</button>
+        <div class="container">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-btn" type="button">Order service</button>
+        </div>
       </section>
 
       <div class="container">
@@ -112,8 +109,10 @@
                 alt="Mark Guerrero Portrait"
                 width="264"
               />
-              <h3 class="team-card-title">Mark Guerrero</h3>
-              <p class="team-card-profesion">Product Designer</p>
+              <div class="team-card-blank">
+                <h3 class="team-card-title">Mark Guerrero</h3>
+                <p class="team-card-profesion">Product Designer</p>
+              </div>
             </li>
             <li class="team-card-item">
               <img
@@ -121,8 +120,10 @@
                 alt="Tom Ford Portrait"
                 width="264"
               />
-              <h3 class="team-card-title">Tom Ford</h3>
-              <p class="team-card-profesion">Frontend Developer</p>
+              <div class="team-card-blank">
+                <h3 class="team-card-title">Tom Ford</h3>
+                <p class="team-card-profesion">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-card-item">
               <img
@@ -130,8 +131,10 @@
                 alt="Camila Garcia Portrait"
                 width="264"
               />
-              <h3 class="team-card-title">Camila Garcia</h3>
-              <p class="team-card-profesion">Marketing</p>
+              <div class="team-card-blank">
+                <h3 class="team-card-title">Camila Garcia</h3>
+                <p class="team-card-profesion">Marketing</p>
+              </div>
             </li>
             <li class="team-card-item">
               <img
@@ -139,8 +142,10 @@
                 alt="Daniel Wilson Portrait"
                 width="264"
               />
-              <h3 class="team-card-title">Daniel Wilson</h3>
-              <p class="team-card-profesion">UI Designer</p>
+              <div class="team-card-blank">
+                <h3 class="team-card-title">Daniel Wilson</h3>
+                <p class="team-card-profesion">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -157,7 +162,7 @@
                 alt="Banking App"
                 width="360"
               />
-              <div class="portfolio_card-blank">
+              <div class="portfolio-card-blank">
                 <h3 class="portfolio-card-title">Banking App</h3>
                 <p class="portfolio-card-desc">App</p>
               </div>
@@ -169,7 +174,7 @@
                 alt="Cashless Payment"
                 width="360"
               />
-              <div class="portfolio_card-blank">
+              <div class="portfolio-card-blank">
                 <h3 class="portfolio-card-title">Cashless Payment</h3>
                 <p class="portfolio-card-desc">Marketing</p>
               </div>
@@ -180,7 +185,7 @@
                 alt="Meditation App"
                 width="360"
               />
-              <div class="portfolio_card-blank">
+              <div class="portfolio-card-blank">
                 <h3 class="portfolio-card-title">Meditation App</h3>
                 <p class="portfolio-card-desc">App</p>
               </div>
@@ -191,7 +196,7 @@
                 alt="Taxi Service"
                 width="360"
               />
-              <div class="portfolio_card-blank">
+              <div class="portfolio-card-blank">
                 <h3 class="portfolio-card-title">Taxi Service</h3>
                 <p class="portfolio-card-desc">Marketing</p>
               </div>
@@ -202,7 +207,7 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <div class="portfolio_card-blank">
+              <div class="portfolio-card-blank">
                 <h3 class="portfolio-card-title">Screen Illustrations</h3>
                 <p class="portfolio-card-desc">Design</p>
               </div>
@@ -213,7 +218,7 @@
                 alt="Online Courses"
                 width="360"
               />
-              <div class="portfolio_card-blank">
+              <div class="portfolio-card-blank">
                 <h3 class="portfolio-card-title">Online Courses</h3>
                 <p class="portfolio-card-desc">Marketing</p>
               </div>
